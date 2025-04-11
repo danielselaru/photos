@@ -10,13 +10,13 @@
 
      display: grid;
      
-      /* grid-template-columns: 200px 200px 200px 200px;    */
+    /* grid-template-columns: 200px 200px 200px 200px;    */
     /* grid-template-columns: 1fr 1fr 1fr; */
      grid-template-columns: repeat(4,1fr);   
    
      border: 1px solid green; 
-     max-width: 800px;
-     padding: 0px;
+     max-width: 1000px;
+    
      gap: 5px;
 }
 .big{

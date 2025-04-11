@@ -6,12 +6,12 @@ import "./style.css"
 function App() {
 
     const [data, setData] = useState([])
-    const [img,setimg] = useState(false)
+    const [img, setimg] = useState(false)
 
     function extend_img(i) {
-         console.log(i)
+         console.log(img)
         // setimg(!img)
-        if(img && i==2){
+        if(img && i===2){
             // setimg((a)=>!a)
              setimg(!img)
         }
